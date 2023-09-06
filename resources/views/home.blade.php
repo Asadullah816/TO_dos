@@ -1,7 +1,7 @@
 @extends('master')
 
 @include('welcome')
-<section class="vh-100" style="background-color: #eee;">
+<section class="" style="background-color: #eee;">
     <div class="container py-5 h-auto">
 
         <div class="row d-flex justify-content-center align-items-center h-100">

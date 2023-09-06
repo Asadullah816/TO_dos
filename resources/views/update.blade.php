@@ -38,6 +38,6 @@
 
 
         <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block mb-4">Add Task</button>
+        <button type="submit" class="btn btn-primary btn-block mb-4">Update Task</button>
     </form>
 </div>
