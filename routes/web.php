@@ -14,9 +14,7 @@ use App\Http\Controllers\TaskController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [TaskController::class, 'showData']);
 // Route::view('home', 'home');
 Route::view('head', 'head');
 Route::get('/edit/{id}', [TaskController::class, 'update']);
